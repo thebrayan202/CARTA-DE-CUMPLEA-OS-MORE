@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Cumpleaños, Mi More 💗</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Great+Vibes&family=Parisienne&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <audio id="bgMusic" src="assets/cancion.mp3" preload="auto" loop></audio>
+
+  <div class="start-overlay" id="startOverlay">
+    <div class="start-card">
+      <div class="start-icon">💌</div>
+      <h2>Para mi More</h2>
+      <p>Toca para abrir la carta, activar la música y ver todos nuestros recuerdos.</p>
+      <button id="startButton">Abrir sorpresa 💗</button>
+    </div>
+  </div>
+
+  <main class="birthday-page">
+    <div class="bg-effects" aria-hidden="true">
+      <img class="balloons-img" src="assets/globos_corazones.png" alt="">
+      <span class="heart-doodle hd-a">♡</span>
+      <span class="heart-doodle hd-b">💗</span>
+      <span class="heart-doodle hd-c">♡</span>
+      <span class="heart-doodle hd-d">💖</span>
+      <span class="heart-doodle hd-e">♡</span>
+      <span class="twinkle tw-a">✦</span>
+      <span class="twinkle tw-b">✧</span>
+      <span class="twinkle tw-c">✦</span>
+      <span class="twinkle tw-d">✧</span>
+      <span class="plane-flight">✈</span>
+    </div>
+
+    <section class="hero-layout">
+      <section class="title-panel">
+        <div class="top-ornament">
+          <span></span><i>♡</i><span></span>
+        </div>
+
+        <h1>
+          <span>Feliz</span>
+          <span>Cumpleaños,</span>
+          <em>Mi More</em><b>♡</b>
+        </h1>
+
+        <div class="mini-divider">
+          <span></span><i>◆</i><i>♡</i><i>◆</i><span></span>
+        </div>
+
+        <p class="subtitle">
+          Aunque la distancia nos separe,<br>
+          hoy quiero hacerte <strong>sonreír.</strong>
+        </p>
+
+        <div class="cta-stack">
+          <button class="glass-button letter-button" id="openLetter">
+            <span class="button-icon">💌</span>
+            <strong>Abrir mi carta</strong>
+            <i>♡</i>
+          </button>
+
+          <button class="glass-button song-button" id="playMusic">
+            <span class="button-icon">♫</span>
+            <strong>Reproducir música</strong>
+            <i>💗</i>
+          </button>
+        </div>
+      </section>
+
+      <section class="photo-feature">
+        <div class="feature-frame">
+          <div class="tape"></div>
+          <div class="heart-clip">💗</div>
+          <img src="assets/more_principal.jpg" alt="More sonriendo">
+        </div>
+
+        <div class="curved-ribbon">
+          Hoy te celebramos a ti,<br>
+          por ser mi lugar favorito en el mundo 💗
+        </div>
+      </section>
+
+      <article class="letter-paper" id="letterPaper">
+        <div class="letter-tape"></div>
+        <h2>Mi More hermosa</h2>
+        <div class="letter-ornament">— ♡ —</div>
+
+        <p>Hoy es tu día y no hay distancia que pueda apagar todo lo que siento por ti.</p>
+        <p>Gracias por cada risa, por tu ternura, por tu forma tan única de hacerme feliz.</p>
+        <p>Eres mi paz, mi inspiración y mi mejor casualidad.</p>
+        <p>Que este nuevo año de vida te traiga todo lo que sueñas y mucho más.</p>
+        <p>Yo estaré aquí, siempre, para ti.</p>
+
+        <p class="signature">Te amo infinito 💗</p>
+
+        <div class="flower-sprig" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </article>
+    </section>
+
+    <section class="decor-section">
+      <article class="decor-card snoopy-block">
+        <img src="assets/snoopy_torta.png" alt="Snoopy cumpleañero con torta rosada">
+      </article>
+
+      <article class="decor-card travel-note-block">
+        <img src="assets/nota_viaje.png" alt="Mañana llegas de viaje, cuenta las horas te espero">
+      </article>
+
+      <article class="decor-card gift-block">
+        <img src="assets/regalo_pasaporte.png" alt="Próximo destino tus brazos, regalo y pasaporte">
+      </article>
+    </section>
+
+    <section class="memories">
+      <h2><span>✧</span> Nuestros recuerdos <span>✧</span></h2>
+
+      <div class="memory-board">
+        <article class="polaroid polaroid-one">
+          <span class="gold-pin"></span>
+          <img src="assets/recuerdo_abrazo.jpg" alt="Recuerdo juntos">
+          <p>Tú y yo, siempre juntos 💗</p>
+        </article>
+
+        <article class="polaroid polaroid-two">
+          <span class="gold-pin"></span>
+          <img src="assets/recuerdo_noche.jpg" alt="Recuerdo juntos de noche">
+          <p>Mi lugar favorito 💗</p>
+        </article>
+      </div>
+
+      <div class="memories-note">
+        fotitos nuestras que quería dejar aquí, como un mini álbum para ti ✨
+      </div>
+
+      <div class="extra-memories-grid">
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_01.jpg" alt="el día del cine con nuestros lentes oscuros 🖤">
+          <div class="memory-caption">el día del cine ese dia vimos minecraft 🖤</div>
+        </article>
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_07.jpg" alt="cuando tocaba videollamada, pero igual te sentía cerquita 📱">
+          <div class="memory-caption">cuando tocaba videollamada, pero igual te sentía cerquita 📱</div>
+        </article>
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_05.jpg" alt="tu cumple, mi more 🎂">
+          <div class="memory-caption">tu cumple, mi more 🎂</div>
+        </article>
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_04.jpg" alt="la torta de dinosaurio de mi cumpleaños 🦖">
+          <div class="memory-caption">la torta de dinosaurio de mi cumpleaños 🦖</div>
+        </article>
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_10.jpg" alt="año nuevo contigo y tu binchita amarilla ✨">
+          <div class="memory-caption">año nuevo contigo y tu binchita amarilla ✨</div>
+        </article>
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_11.jpg" alt="nuestro día de playa, de los más bonitos 🏖️">
+          <div class="memory-caption">nuestro día de playa, de los más bonitos 🏖️</div>
+        </article>
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_08.jpg" alt="snoopy también tenía que estar aquí 🐾">
+          <div class="memory-caption">snoopy también tenía que estar aquí 🐾</div>
+        </article>
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_09.jpg" alt="starbucks, tus manitos y ese momento que me encanta ☕">
+          <div class="memory-caption">starbucks, tus manitos y ese momento que me encanta ☕</div>
+        </article>
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_02.jpg" alt="tu carita con la galletita jajaja 🍪">
+          <div class="memory-caption">tu carita con la galletita jajaja 🍪</div>
+        </article>
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_03.jpg" alt="tú con el pollito más bonito 🐥">
+          <div class="memory-caption">tú con el pollito más bonito 🐥</div>
+        </article>
+        <article class="memory-card">
+          <div class="memory-pin"></div>
+          <img src="assets/memory_extra_06.jpg" alt="esa selfie que me gusta demasiado 🤍">
+          <div class="memory-caption">esa selfie la ultima que nos tomamos 🤍</div>
+        </article>
+      </div>
+    </section>
+
+    <div class="toast" id="toast">Música activada 💗</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
